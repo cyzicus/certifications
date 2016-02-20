@@ -1,5 +1,6 @@
 javaranch.com
 
+*********************************************************
 Module 2, Lesson 1
 The two exceptions to normal {} variable scoping are simple for loops and method declaration
 The for loop stated above does not need to have {}, so be careful:
@@ -8,6 +9,7 @@ for(i = 0; i < 100; i++)
 	System.out.println(i);
 System.out.println(i) !!!!!!!!!!! <= i is now out of scope
 
+*********************************************************
 Module 2, Lesson 2
 You can only have one PUBLIC class or interface in each source file.
 The public class name must match the source file name exactly (including capitalization)
@@ -19,6 +21,7 @@ Static vs. non-static
 
 You cannot access a non-public class in a different package
 
+*********************************************************
 Module 2, Lesson 3
 
 Part 1
@@ -54,3 +57,23 @@ System.out.append("Hello,")
 			
 There is also an overloaded append() that allows you to select a subsequence (substring)
 
+*********************************************************
+Module 2, Lesson 4
+
+Part 1
+A package represents a group of related classes (called a namespace)
+
+The import statement is only used for cleaning up your source code (as the compiled class will ALWAYS use the fully-qualified name)
+
+Part 2
+package comes first, but is optional
+import statements come second, not required
+code comes third (class, interface, etc)
+
+Wildcard import statements cannot be used to get partial lists (CANNOT import only packages starting with the letter 'd' by using 'import a.d*'...this WILL NOT work)
+
+If you had the following package structure a.b.MyClass and you did an import of a.*, you would NOT get anything from a.b (including MyClass)...these subpackages are just for organizational purposes and they are treated as completely separate packages.  To get MyClass imported, you would have to import a.b.*
+
+An ambiguous import would occur if you imported both java.util.Date and java.sql.Date.  This can also occur if you import using the wildcard (grabbing java.util.* and java.sql.Date)
+
+An import statement of a package/class takes precedence over natural hierarchy within the existing package.  For instance, if packageOne has a class called "Banana" and packageTwo has classes "Banana" and "Apple", if Apple imports packageOne and then tries to create a Banana object, it will be the banana from packageOne because it was specifically imported.  It will NOT reference the banana that is in its own package
