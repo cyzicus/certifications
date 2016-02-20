@@ -32,3 +32,25 @@ To run a java application from the command line, you need to use the following p
 "MyProgram" -> the fully qualified class name to run (package.Class)
 "my arguments" -> corresponds to the String[] in main method
 
+Part 3
+"java -cp" tells java the classpath necessary for finding all necessary files for running the program
+
+** Rewatch this lecture to understand the syntax for setting the classpath
+
+Part 4
+There are 3 ways of writing output using the Console object:
+System.out (which is actually a PrintStream)
+
+Be able to talk about the differences between println, print, and printf
+Use of flush()
+Default formatting of a float is 6 decimal places
+Be able to talk about the different formatting options (%d, %f, etc)
+
+System.out.append() returns a PrintWriter, so you can chain the results:
+
+System.out.append("Hello,")
+ 			.append(" World!")
+			.append('\n');
+			
+There is also an overloaded append() that allows you to select a subsequence (substring)
+
