@@ -88,3 +88,8 @@ Bytecode interpretation is efficient
 Compilation to bytecode avoids "understanding" of human-readable text at execution-time
 JVM includes additional optimizations for more speed
 JVM identifies of "hotspots" of frequently run code that is converted to native binary for the particular processor the program is running on
+
+Part 2
+Heap is the term to refer to the memory available for allocation
+Hotel d'Heap analogy - you used to have to remember to return your hotel keys!
+
