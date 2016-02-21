@@ -93,3 +93,11 @@ Part 2
 Heap is the term to refer to the memory available for allocation
 Hotel d'Heap analogy - you used to have to remember to return your hotel keys!
 
+Part 3
+Encapsulation - be able to give a definition
+
+Good rules for encapsulation:
+All variables are private (constants don't count)
+Some methods are accessible
+Methods protect internal state integrity
+
