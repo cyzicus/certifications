@@ -77,3 +77,14 @@ If you had the following package structure a.b.MyClass and you did an import of 
 An ambiguous import would occur if you imported both java.util.Date and java.sql.Date.  This can also occur if you import using the wildcard (grabbing java.util.* and java.sql.Date)
 
 An import statement of a package/class takes precedence over natural hierarchy within the existing package.  For instance, if packageOne has a class called "Banana" and packageTwo has classes "Banana" and "Apple", if Apple imports packageOne and then tries to create a Banana object, it will be the banana from packageOne because it was specifically imported.  It will NOT reference the banana that is in its own package
+
+*********************************************************
+Module 2, Lesson 5
+
+Part 1
+Compiler produces platform-independent bytecode
+Bytecode runs on any JVM
+Bytecode interpretation is efficient
+Compilation to bytecode avoids "understanding" of human-readable text at execution-time
+JVM includes additional optimizations for more speed
+JVM identifies of "hotspots" of frequently run code that is converted to native binary for the particular processor the program is running on
