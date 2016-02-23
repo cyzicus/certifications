@@ -1,15 +1,15 @@
 ***********************************************
-Module 3, Lesson 1
+Module 3, Lesson 1.1
 
 “int x, y, a, b;” is an acceptable way to declare multiple variables 
 
 ***********************************************
-Module 3, Lesson 2
+Module 3, Lesson 1.2
 
 “int x=100, y=95, z=x-y;” is an acceptable way to declare and initialize variables
 
 ***********************************************
-Module 3, Lesson 3
+Module 3, Lesson 1.3
 
 int = java type
 Integer = whole number types that java supports
@@ -44,7 +44,7 @@ You can declare and initialize a variable with a literal of a different as long 
 You can use a separate AS LONG as it is between two numbers (can’t be at beginning, end, or after x in HEX, etc)
 
 ***********************************************
-Module 3, Lesson 4
+Module 3, Lesson 1.4
 
 There are two types of floating point primitive types: float and double
 float - 32 bits
@@ -64,7 +64,40 @@ NaN represents an uncomputable result and (strangely enough) is not equal to its
 Positive and negative infinity exist in both the Double and Float types (4 total)
 
 ***********************************************
-Module 3, Lesson 5
+Module 3, Lesson 1.5
+
+boolean - true and false 
+Are not numbers like in other languages, so: “boolean bt = 1;” is NOT ALLOWED
+However, computations ARE allowed, so: “boolean bf = (x != 0);” is OK
+
+char - 16 bits (2 bytes)
+
+Unicode char literals - backslash, u, then 4 character hex value
+‘\uXXXX’
+
+“u” is case-sensitive, but the hex value is not
+
+“char \u559c = ‘\u559C’;” is totally valid
+
+escape sequences:
+\b backspace (character 08)
+\t horizontal tab (character 09)
+\n linefeed (character 0a)
+\f formfeed (character 0c)
+\r carriage return (character 0d)
+\” double quote (character 22)
+\’ single quote (character 27)
+\\ backslash (character 5c)
+
+You can also use octal to escape char values. Largest octal escape value is ‘\377’ (which is 255 decimal)
+
+***********************************************
+Module 3, Lesson 1.6
+
+int x; // x is ALWAYS an int
+the value of x, on the other hand can be cast into other types
+
+
 
 
 
