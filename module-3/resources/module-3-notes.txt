@@ -43,4 +43,30 @@ You can declare and initialize a variable with a literal of a different as long 
 
 You can use a separate AS LONG as it is between two numbers (can’t be at beginning, end, or after x in HEX, etc)
 
+***********************************************
+Module 3, Lesson 4
+
+There are two types of floating point primitive types: float and double
+float - 32 bits
+double - 64 bits
+
+Floating point numbers aren’t exact and will cause rounding errors from time to time
+
+Because of this, its a bad idea to use floating point numbers for money. 
+
+If you write a literal with a decimal, java will assume it to be a double
+
+You can add D to literal to declare it as double
+Apply an F to make a float
+
+NaN represents an uncomputable result and (strangely enough) is not equal to itself
+
+Positive and negative infinity exist in both the Double and Float types (4 total)
+
+***********************************************
+Module 3, Lesson 5
+
+
+
+
 
