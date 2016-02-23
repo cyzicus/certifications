@@ -1,1 +1,46 @@
+***********************************************
 Module 3, Lesson 1
+
+“int x, y, a, b;” is an acceptable way to declare multiple variables 
+
+***********************************************
+Module 3, Lesson 2
+
+“int x=100, y=95, z=x-y;” is an acceptable way to declare and initialize variables
+
+***********************************************
+Module 3, Lesson 3
+
+int = java type
+Integer = whole number types that java supports
+
+What are the four types of Integer types?
+byte, short, int, and long
+
+char type has integer/numeric properties (meaning you can do arithmetic on it)
+
+byte - 8 bits (-128 to 127)
+short - 16 bits (-32,768 to 32767)
+int - 32 bits (-2,147,483,648 to 2,147,483,647)
+long - 64 bits (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+
+even though each of these types is supposed to take up X bits, it may actually vary by operating system. 
+
+char - 16 bits (0 to 65,535)
+
+Integer literals can be written in the following forms:
+decimal : (1234)
+octal (base 8) : 077 (digits from 0-7 and start with 0)
+hexadecimal (base 16) : 0xCAFEBABE (0-7 and A-F and start with 0x)
+binary : 0b110010101111110 (0/1 and start with 0b)
+
+What do you append to the literal to declare it a long? L
+
+You can declare and initialize a variable with a literal of a different as long as:
+1) it fits into the variable (short s = 1234; -> 1234 is an int)
+2) it isn’t a long
+3) 
+
+You can use a separate AS LONG as it is between two numbers (can’t be at beginning, end, or after x in HEX, etc)
+
+
