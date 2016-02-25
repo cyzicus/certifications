@@ -1,1 +1,80 @@
+****************************************************
+Module 4, Part 1.4
+
+The type of the result of an operation depends on the types of the operands:
+int + int => int
+long + long => long
+float + float => float
+double + double => double
+
+Results of operands of “less than” ints returns an int! So:
+short + byte => int!!!
+
+Hierarchy:
+if either operand is 	double => double
+else if			float => float
+else if			long => long
+else			int
+
+So, the following will result in a compiler error:
+short s = 99;
+byte b = 10;
+s = b + s; // Compiler error because s is a short and cannot hold an int!
+
+****************************************************
+Module 4, Part 1.5
+
+An L-Value (or a Left Value) is an expression that can be modified
+
+Pre-Increment & Pre-Decrement
+int x = 99;
+int y = ++x;
+y == 100 && x == 100
+
+int x = 99;
+int y = —x;
+y == 98 && x == 98
+
+Post-Increment & Post-Decrement
+int x = 99;
+int y = x++;
+y == 99 && x == 100
+
+int x = 99;
+int y = x—-;
+y == 99 && x == 98
+
+Expressions are usually evaluated from left to right
+
+++ and —- do not change the type, so the following is allowed:
+short s =10; t = 0;
+t = ++s;
+
+****************************************************
+Module 4, Part 1.5
+
+Shift Operators:
+
+Shifting right…
+
+	128	64	32	16	8	4	2	1
+42	0	0	1	0	1	0	1	0  == 42
+42>>1	?	0	0	1	0	1	0	1  == 21 (42 / 2)
+42>>2	?	?	0	0	1	0	1	0  == 10 (42 / 4?)
+42>>3	?	?	?	0	0	1	0	1  == 5  (42 / 8?)
+Loss of precision!?!?!?
+
+Research this more if time allows…probably not on the test
+
+Numbers will be doubled or halved depending on direction
+
+****************************************************
+Module 4, Part 1.6
+
+
+
+
+ 
+
+
 
