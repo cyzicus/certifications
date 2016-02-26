@@ -68,7 +68,7 @@ Loss of precision!?!?!?
 42	0	0	1	0	1	0	1	0  == 42
 42<<1	0	1	0	1	0	1	0	?  == 84 (42 * 2)
 42<<2	1	0	1	0	1	0	?	?  == 168 (42 * 4)
-42<<3	0	1	0	1	0	?	?	?  == 336 (256 was omitted)  (42 * 8)
+42<<3	0	1	0	1	0	?	?	?  == 336 (256 was hidden)  (42 * 8)
 
 Research this more if time allows…probably not on the test
 
@@ -77,7 +77,25 @@ Numbers will be doubled or halved depending on direction
 ****************************************************
 Module 4, Part 1.7
 
-Comparison operators: <, <=, >, >=
+Comparison operators: <, <=, >, >=, ==, !=
+
+“new” keyword will create reference instances
+Integer i1 = new Integer(12345);
+Integer i2 = new Integer(12345);
+i1 == i2 => FALSE!!!
+
+While the literal assignment does not
+Integer i1 = 1;
+Integer i2 = 1;
+i1 == i2 => TRUE!!!
+
+And same with literal strings
+String s1 = “Hello”;
+String s2 = “Hello”;
+s1 == s2 => TRUE!!
+
+
+
 
 
 
