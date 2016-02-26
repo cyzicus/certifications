@@ -51,7 +51,7 @@ short s =10; t = 0;
 t = ++s;
 
 ****************************************************
-Module 4, Part 1.5
+Module 4, Part 1.6
 
 Shift Operators:
 
@@ -64,12 +64,20 @@ Shifting right…
 42>>3	?	?	?	0	0	1	0	1  == 5  (42 / 8?)
 Loss of precision!?!?!?
 
+	128	64	32	16	8	4	2	1
+42	0	0	1	0	1	0	1	0  == 42
+42<<1	0	1	0	1	0	1	0	?  == 84 (42 * 2)
+42<<2	1	0	1	0	1	0	?	?  == 168 (42 * 4)
+42<<3	0	1	0	1	0	?	?	?  == 336 (256 was omitted)  (42 * 8)
+
 Research this more if time allows…probably not on the test
 
 Numbers will be doubled or halved depending on direction
 
 ****************************************************
-Module 4, Part 1.6
+Module 4, Part 1.7
+
+Comparison operators: <, <=, >, >=
 
 
 
