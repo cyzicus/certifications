@@ -25,4 +25,10 @@ Statement2 actually is the else of test2, NOT test1
 ****************************************************
 Module 4, Part 3.3
 
+Java does not have a built in elseif method…but can be accomplished nesting if statements within an else() {}… or you can use “else if(<test>) {}” This breaks the convention of always adding {} after each else, but it’s OK.
+
+
+****************************************************
+Module 4, Part 3.4
+
 
