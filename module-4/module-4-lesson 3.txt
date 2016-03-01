@@ -1,5 +1,12 @@
 ****************************************************
 Module 4, Part 3.1
 
+Cannot use integer value in if/else statement (unlike other languages)
+
+Can use Boolean object, but just because it will be unboxed to boolean
+
+
+****************************************************
+Module 4, Part 3.2
 
 
