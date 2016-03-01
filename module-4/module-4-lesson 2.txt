@@ -9,6 +9,7 @@ The ‘.equals()’ method depends A LOT on how the class is defined for equalit
 ****************************************************
 Module 4, Part 2.2
 
+Check documentation for equals() method for each particular class.  If no equals() method is present, it is inheriting from java.lang.Object.  
 
-****************************************************
-Module 4, Part 2.3
+The .equals() method of Object implements ‘==‘, so it is really checking reference
+
