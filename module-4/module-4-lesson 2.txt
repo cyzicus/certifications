@@ -1,2 +1,14 @@
 ****************************************************
 Module 4, Part 2.1
+
+== operator acts differently for primitive vs reference
+use .equals for reference (unless you want to see if two references refer to the same object
+
+The ‘.equals()’ method depends A LOT on how the class is defined for equality
+
+****************************************************
+Module 4, Part 2.2
+
+
+****************************************************
+Module 4, Part 2.3
