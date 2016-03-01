@@ -1,5 +1,47 @@
 ****************************************************
-Module 4, Part 4.1
+Module 4, Part 4.1 and 4.2
+
+switch(x) {
+  case 10: 
+	   statement1;
+	   break;
+  case 20:
+	   statement2;
+   	   break;
+  default:
+	   statement3;
+	   break;
+}
 
 
+case statements have to be constants or expressions that can be compiled. Can’t be a method call, for example.
 
+break statements prevent the subsequent case statements from being called
+
+
+****************************************************
+Module 4, Part 4.3
+
+Lack of break statements are also used for follow-through:
+
+switch (x) {
+  case 1:
+  case 2:
+  case 3:
+    <statement>
+  case 4:
+    <statement>
+  default:
+    <statement>
+}
+
+
+****************************************************
+Module 4, Part 4.4
+
+Switchable types: 
+  Originally was on in and smaller: int short byte and char
+  Java 1.5 - became possible to switch on enums as well
+  Java 1.7 - can switch on Strings (e.g. case “Hello”:… )
+
+Switch statements on Strings can be more efficient than using nested if/else statements
