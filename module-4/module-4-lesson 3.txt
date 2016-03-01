@@ -31,4 +31,15 @@ Java does not have a built in elseif method…but can be accomplished nesting if
 ****************************************************
 Module 4, Part 3.4
 
+ternary = having three parts
+
+<test> ? <statementIfTrue> : <statementIfFalse>;
+
+<b> ? <byte> : <byte> => <byte>
+<b> ? <long> : <long> => <long>
+<b> ? (byte)10 : 10 + 23 => <byte>
+<b> ? <byte> : <long> => <long>
+<b> ? <float> : <double> => <double>
+<b> ? <Byte> : <int> => <int>
+<b> ? <boolean> : <int> => ERROR
 
