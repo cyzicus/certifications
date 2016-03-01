@@ -9,4 +9,20 @@ Can use Boolean object, but just because it will be unboxed to boolean
 ****************************************************
 Module 4, Part 3.2
 
+On test, watch for braces (or lack thereof) following if and else statements
+
+If braces aren’t present, an else statement MUST attach to the closest if statement
+
+if(<test1>)
+  if(<test2>)
+    <statement1>
+else()
+  <statement2>
+
+Statement2 actually is the else of test2, NOT test1
+
+
+****************************************************
+Module 4, Part 3.3
+
 
