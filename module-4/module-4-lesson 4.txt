@@ -1,5 +1,5 @@
 ****************************************************
-Module 4, Part 4.1 and 4.2
+Module 4, Part 4.1
 
 switch(x) {
   case 10: 
@@ -13,6 +13,8 @@ switch(x) {
 	   break;
 }
 
+****************************************************
+Module 4, Part 4.2
 
 case statements have to be constants or expressions that can be compiled. Can’t be a method call, for example.
 
